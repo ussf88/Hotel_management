@@ -1,0 +1,66 @@
+#colorlib-hero{
+    height: 75vh !important;
+    overflow: hidden;
+}
+option{
+	color:black;
+}
+.flexit{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+}
+.valider{
+	 position: absolute;
+   left:50%;
+   transform: translate(-50%,0%);
+   width:250px;
+}
+.gridit{
+	display:grid;
+    grid-template-columns: 20% 80%;
+}
+.aside{
+	 display: flex !important;
+	 flex-direction:column;
+    justify-content: space-between;
+    min-height:100vh;
+}
+.mylinks{
+	display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    font-size: 20px;
+    list-style: none;
+    width:100%;
+    margin:0 auto;
+    padding:0 !important;
+   box-sizing: border-box;
+}
+.mylinks li{
+	width:150px;
+	text-align:center;
+	margin:0;
+	box-sizing: border-box;
+}
+.mylinks .active a {
+	color:yellow;
+}
+.mylinks li a:hover{
+	color:yellow;
+}
+.mylinks li a{
+	text-decoration:none;
+}
+.mub1{
+	width:150px !important;
+	position: absolute;
+	top:38%;
+	left:35%;
+}
+.mub2{
+	width:150px !important;
+	position: absolute;
+	top:38%;
+	left:75%;
+}
